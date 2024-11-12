@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Comic Sans MS', sans-serif;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            font-size: 2em;
+            color: #333;
+        }
+        .twitch-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #f0f0f0;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .twitch-button:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+    <script>
+        // Array of possible tab titles
+        const tabTitles = [
+            "yvngcjfr is here",
+            "coming soon fucka",
+            "ambatukam",
+            "chatgpt helped😭💀🙏 "
+        ];
+
+        // Pick a random title from the array on page load
+        document.addEventListener("DOMContentLoaded", () => {
+            document.title = tabTitles[Math.floor(Math.random() * tabTitles.length)];
+        });
+    </script>
+</head>
+<body>
+    <h1>coming soon... yvngsqud</h1>
+    <a href="https://twitch.tv/yvngcjfr" class="twitch-button" target="_blank">Visit Twitch Channel</a>
+</body>
+</html>
